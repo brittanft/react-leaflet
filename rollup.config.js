@@ -39,8 +39,7 @@ if (env === 'production') {
   config.plugins.push(
     uglify({
       compress: {
-        dead_code: true,
-        warnings: false,
+        dead_code: true
       },
     })
   )
