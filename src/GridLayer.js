@@ -32,6 +32,7 @@ export default class GridLayer<
           maxZoom: props.leaflet.map.options.maxZoom,
           minZoom: props.leaflet.map.options.minZoom,
           zoomSnap: props.leaflet.map.options.zoomSnap,
+          bounds: props.leaflet.map.options.bounds,
           ...options,
         }
   }
